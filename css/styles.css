@@ -156,20 +156,18 @@ input {
   font-weight: 700;
   background-color: #14485b;
   padding: 15px 10px;
+  position: relative;
 }
 
 .post-date::after {
   content: "";
   position: absolute;
-  top: 30.7%;
-  right: 491px;
+  top: 100%;
   width: 0;
   height: 0;
-  border-color: transparent;
   border-style: solid;
-  border-width: 5px;
-  border-top-color: #0b2731;
-  border-left-color: #0b2731;
+  border-width: 10px 10px 0 0;
+  border-color: #0b2731 transparent transparent transparent;
 }
 
 .post-auth {
